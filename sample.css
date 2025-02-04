@@ -1,0 +1,455 @@
+@media (max-width:576px){
+    body{
+        background-color:white;
+    }
+    .a2{
+        display: none;
+    }
+    .header{
+        position: fixed;
+        bottom:10px;
+        width : 95%;
+        background-color: cornflowerblue;
+        height:70px;
+        border-radius: 20px;
+        border:solid;
+        border-radius: 20px;
+        
+        display:grid;
+        grid-template-columns: auto auto auto    ;
+        justify-items: center;
+
+    }
+    a{
+       
+        border-radius: 10px;
+        width : 100px;
+        height : 35px;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: black;
+        margin-top:5px;
+    }
+    .a1:hover{
+        background-color:aqua
+    }
+    .main{
+        margin-top: 10px;
+        background-color: white;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgb(58, 52, 48);
+        margin:20px;
+        padding:10px;
+    }
+    .image{
+        border:none;
+        height : 250px;
+        border-radius: 20px;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+        text-align: center;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color: black;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        top : 20px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+
+    body{
+        background-color:white;
+    }
+    .header{
+        
+        background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #800080, #ffc0cb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #800080, #ffc0cb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: fixed;
+        height:70px;
+        width: 97%;
+        border:none;
+        border-radius: 20px;
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        justify-items: center;
+    }
+    a{
+        background-color: none;
+        border-radius: 20px;
+        width : 100px;
+        height : 40px;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: white;
+        margin-top:5px;
+    }
+    .a1:hover{
+
+        background: #F7971E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+    .a2:hover{
+
+        background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .main{
+        margin-top: 10px;
+        background-color:white;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto auto   ;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        background-color: white;
+        margin:20px;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgb(70, 68, 68);
+    }
+    .image{
+        border:none;
+        height : 250px;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color: orange;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 20px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
+@media (min-width:768px) and (max-width:1200px){
+
+    body{
+        background-color:white;
+    }
+    .header{
+        
+        background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #800080, #ffc0cb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #800080, #ffc0cb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: fixed;
+        height:70px;
+        width: 97%;
+        border:none;
+        border-radius: 20px;
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        justify-items: center;
+    }
+    a{
+        background-color: none;
+        border-radius: 20px;
+        width : 100px;
+        height : 40px;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: white;
+        margin-top:5px;
+    }
+    .a1:hover{
+
+        background: #F7971E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+    .a2:hover{
+
+        background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .main{
+        margin-top: 10px;
+        background-color:white;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto auto auto  ;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        background-color: white;
+        margin:20px;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgb(70, 68, 68);
+    }
+    .image{
+        border:none;
+        height : 250px;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color: orange;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 20px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    body{
+        background-color:white;
+    }
+    .header{
+        
+        background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #800080, #ffc0cb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #800080, #ffc0cb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: fixed;
+        height:70px;
+        width: 97%;
+        border:none;
+        border-radius: 20px;
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        justify-items: center;
+    }
+    a{
+        background-color: none;
+        border-radius: 20px;
+        width : 100px;
+        height : 40px;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: white;
+        margin-top:5px;
+    }
+    .a1:hover{
+
+        background: #F7971E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+    .a2:hover{
+
+        background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .main{
+        margin-top: 10px;
+        background-color:white;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        background-color: white;
+        margin:20px;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgb(70, 68, 68);
+    }
+    .image{
+        border:none;
+        height : 250px;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color: orange;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 20px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
